@@ -4,8 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Activity test = new Activity();
-        test.DisplaySpinner(5);
-        test.DisplayCountdown(6);
+        Listing test2 = new Listing();
+        test2.Session();
     }
 }

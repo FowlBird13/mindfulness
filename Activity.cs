@@ -8,7 +8,7 @@ public class Activity
 
     public Activity()
     {
-        _GBname = "No name";
+        _GBname = "An activity";
         _GBdescription = "No description";
         _GBduration = 0;
     }
@@ -54,31 +54,41 @@ public class Activity
     {
         Console.WriteLine($"Welcome to the {_GBname} Activity.");
         Console.WriteLine(_GBdescription);
+        userSetDuration();
+        Console.Clear();
+        Console.WriteLine("Get ready...");
+        DisplaySpinner(2);
     }
     public void endMsg()
     {
-        Console.WriteLine("Well done!!");
-        DisplaySpinner(3);
+        Console.WriteLine("\nWell done!!");
+        DisplaySpinner(5);
         Console.WriteLine($"You have completed another {_GBduration} seconds of {_GBname} Activity.");
-        DisplaySpinner(3);
+        DisplaySpinner(5);
     }
     public void userSetDuration()
     {
-        Console.WriteLine("How long, in seconds, would you like your session?");
+        Console.Write("How long, in seconds, would you like your session?");
+        try{
         _GBduration = int.Parse(Console.ReadLine());
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Please enter a valid integer.");
+        }
     }
     public void DisplayCountdown(int duration)
     {
         DateTime now = DateTime.Now;
         DateTime future = now.AddSeconds(duration);
-        while (DateTime.Now < future)
+        while (DateTime.Now <= future)
         {
             Console.Write(duration);
             Thread.Sleep(1000);
             Console.Write("\b \b");
             duration --;
-
         }
+        Console.WriteLine("");
     }
     public void DisplaySpinner(int duration)
     {
@@ -88,7 +98,7 @@ public class Activity
         DateTime now = DateTime.Now;
         DateTime future = now.AddSeconds(duration);
         int i = 0;
-        while (DateTime.Now < future)
+        while (DateTime.Now <= future)
         {
             Console.Write(spinner[i]);
             Thread.Sleep(250);
@@ -98,6 +108,5 @@ public class Activity
             {
                 i = 0;
             }
-
         }    }
 }

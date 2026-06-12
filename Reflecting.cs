@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+
 public class Reflecting :Activity
 {
     private List<string> _GBRprompts = new List<string>
@@ -33,14 +35,39 @@ public class Reflecting :Activity
         setDuration(duration);
     }
 
+    public void Session()
+    {
+        beginMsg();
+        Console.WriteLine("Consider the following prompt:");
+        displayAprompt();
+        Console.WriteLine("When you have something in mind, press enter to continue.");
+        while (Console.ReadLine() != "")
+        {
+            Console.WriteLine("Press enter when you're ready.");
+        }
+        if (Console.ReadLine() == "")
+        {
+            Console.Write("Now ponder on each of the following questionts as they related to this experience.\nYou may begin in: ");
+            DisplayCountdown(5);
+            DateTime now = DateTime.Now;
+            while (DateTime.Now <= now.AddSeconds(getDuration()))
+            {
+                displayAquestion();
+            }
+            Console.Write("");
+            endMsg();
+        }
+    }
+
     public void displayAprompt(){
         Random GBrnd = new Random();
         int rdNum = GBrnd.Next(0,_GBRprompts.Count()-1);
-        Console.WriteLine(_GBRprompts[rdNum]);
+        Console.WriteLine($"---{_GBRprompts[rdNum]}---");
     }
     public void displayAquestion(){
         Random GBrnd = new Random();
         int rdNum = GBrnd.Next(0,_GBquestions.Count()-1);
-        Console.WriteLine(_GBquestions[rdNum]);
+        Console.Write($"\n> {_GBquestions[rdNum]}");
+        DisplaySpinner(6);
     }
 }
