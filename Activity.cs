@@ -71,9 +71,9 @@ public class Activity
     {
         DateTime now = DateTime.Now;
         DateTime future = now.AddSeconds(duration);
-        while (now < future)
+        while (DateTime.Now < future)
         {
-            Console.WriteLine(duration);
+            Console.Write(duration);
             Thread.Sleep(1000);
             Console.Write("\b \b");
             duration --;

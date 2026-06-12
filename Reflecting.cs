@@ -19,6 +19,19 @@ public class Reflecting :Activity
         "What did you learn about yourself through this experience?",
         "How can you keep this experience in mind in the future?"
     };
+    
+    public Reflecting()
+    {
+        setName("Reflection");
+        setDescrip("This activity will help you relax by walking your through breathing in and out slowly. Clear your mind and focus on your breathing.");
+        setDuration(0);
+    }
+    public Reflecting(int duration)
+    {
+        setName("Reflection");
+        setDescrip("This activity will help you relax by walking your through breathing in and out slowly. Clear your mind and focus on your breathing.");
+        setDuration(duration);
+    }
 
     public void displayAprompt(){
         Random GBrnd = new Random();

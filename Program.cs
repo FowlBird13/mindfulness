@@ -6,5 +6,6 @@ class Program
     {
         Activity test = new Activity();
         test.DisplaySpinner(5);
+        test.DisplayCountdown(6);
     }
 }
