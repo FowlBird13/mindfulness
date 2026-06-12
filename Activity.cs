@@ -83,25 +83,21 @@ public class Activity
     public void DisplaySpinner(int duration)
     {
         string[] spinner = new string[]
-        {"|", "/","⟋", "—","⟍", @"\"};
+        {"|", "/", "-", @"\"};
         
         DateTime now = DateTime.Now;
         DateTime future = now.AddSeconds(duration);
         int i = 0;
-        while (now < future)
+        while (DateTime.Now < future)
         {
-            Console.WriteLine(spinner[i]);
-            Thread.Sleep(500);
+            Console.Write(spinner[i]);
+            Thread.Sleep(250);
             Console.Write("\b \b");
             i ++;
-            if (i >= 5)
+            if (i >= 4)
             {
                 i = 0;
             }
 
         }    }
-    public void clearConsole()
-    {
-        
-    }
 }

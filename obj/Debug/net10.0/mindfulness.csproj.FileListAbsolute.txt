@@ -1,0 +1,15 @@
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.GeneratedMSBuildEditorConfig.editorconfig
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.AssemblyInfoInputs.cache
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.AssemblyInfo.cs
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.csproj.CoreCompileInputs.cache
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.sourcelink.json
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\bin\Debug\net10.0\mindfulness.exe
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\bin\Debug\net10.0\mindfulness.deps.json
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\bin\Debug\net10.0\mindfulness.runtimeconfig.json
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\bin\Debug\net10.0\mindfulness.dll
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\bin\Debug\net10.0\mindfulness.pdb
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.dll
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\refint\mindfulness.dll
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.pdb
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.genruntimeconfig.cache
+e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\ref\mindfulness.dll

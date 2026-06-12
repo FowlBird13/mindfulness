@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj": {}
+    "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj": {}
   },
   "projects": {
-    "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj": {
+    "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj",
+        "projectUniqueName": "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj",
         "projectName": "mindfulness",
-        "projectPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj",
+        "projectPath": "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj",
         "packagesPath": "C:\\Users\\LG\\.nuget\\packages\\",
-        "outputPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\obj\\",
+        "outputPath": "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LG\\AppData\\Roaming\\NuGet\\NuGet.Config"
