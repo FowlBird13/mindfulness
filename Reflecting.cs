@@ -20,9 +20,14 @@ public class Reflecting :Activity
         "How can you keep this experience in mind in the future?"
     };
 
-    public void displayString(){
+    public void displayAprompt(){
         Random GBrnd = new Random();
         int rdNum = GBrnd.Next(0,_GBRprompts.Count()-1);
         Console.WriteLine(_GBRprompts[rdNum]);
+    }
+    public void displayAquestion(){
+        Random GBrnd = new Random();
+        int rdNum = GBrnd.Next(0,_GBquestions.Count()-1);
+        Console.WriteLine(_GBquestions[rdNum]);
     }
 }
