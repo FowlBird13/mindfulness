@@ -2,7 +2,6 @@ using System.Reflection.Metadata.Ecma335;
 
 public class Breathing: Activity
 {
-     private double duration;
      DateTime jbstartingtime = DateTime.Now;
      DateTime jbbreathing = jbstartingtime.AddSeconds(duration);
      private int jbbreathe = int.Parse(jbbreathing);

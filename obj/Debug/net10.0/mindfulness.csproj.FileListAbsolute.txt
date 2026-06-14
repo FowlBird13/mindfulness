@@ -13,3 +13,11 @@ e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\refint\mi
 e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.pdb
 e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\mindfulness.genruntimeconfig.cache
 e:\학교\Idaho Sophomore-Spring\CSE 210\mindfulness\obj\Debug\net10.0\ref\mindfulness.dll
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\mindfulness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\mindfulness.AssemblyInfoInputs.cache
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\mindfulness.AssemblyInfo.cs
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\mindfulness.csproj.CoreCompileInputs.cache
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\mindfulness.sourcelink.json
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\mindfulness.dll
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\refint\mindfulness.dll
+C:\Users\jsbat\mindfulness\mindfulness\obj\Debug\net10.0\mindfulness.pdb

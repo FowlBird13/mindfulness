@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj": {}
+    "C:\\Users\\jsbat\\mindfulness\\mindfulness\\mindfulness.csproj": {}
   },
   "projects": {
-    "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj": {
+    "C:\\Users\\jsbat\\mindfulness\\mindfulness\\mindfulness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj",
+        "projectUniqueName": "C:\\Users\\jsbat\\mindfulness\\mindfulness\\mindfulness.csproj",
         "projectName": "mindfulness",
-        "projectPath": "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\mindfulness.csproj",
-        "packagesPath": "C:\\Users\\LG\\.nuget\\packages\\",
-        "outputPath": "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\mindfulness\\obj\\",
+        "projectPath": "C:\\Users\\jsbat\\mindfulness\\mindfulness\\mindfulness.csproj",
+        "packagesPath": "C:\\Users\\jsbat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jsbat\\mindfulness\\mindfulness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jsbat\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
