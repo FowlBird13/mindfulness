@@ -2,15 +2,17 @@ using System.Reflection.Metadata.Ecma335;
 
 public class Breathing: Activity
 {
+     private int jbbreatheduration = 0;
      DateTime jbstartingtime = DateTime.Now;
-     DateTime jbbreathing = jbstartingtime.AddSeconds(duration);
-     private int jbbreathe = int.Parse(jbbreathing);
+     int jbbreathing = jbstartingtime.AddSeconds(duration);
+     int jbbreathing = jbbreatheduration;
+    
    
-     private int jbbreatheduration = jbbreathe;
-     private void BreathingActivity(int jbbreatheduration)
+    private void BreathingActivity(int jbbreathing)
+    
     {
         {
-        while (jbbreatheduration/5 >0)
+        while (jbbreathing/5 >0)
         Console.Clear();
         Console.WriteLine ("Breathe In.");
         Console.Clear();
@@ -56,7 +58,7 @@ public class Breathing: Activity
 
     }
     Console.Clear();
-    }   
-}
+    }}
+
 
 
